@@ -31,9 +31,15 @@ requirements:
 
 # Development Environment: 
 
-Ubuntu (Ubuntu 20.04.1 LTS) 
+- Ubuntu (Ubuntu 20.04.1 LTS) 
 
-Visual Studio Code\
+- Python 3.8.5
+    - Project is implemented in Python
+
+- pip 20.0.2 
+    - Package installer for python
+
+- Visual Studio Code\
 Version: 1.50.1\
 Commit: d2e414d9e4239a252d1ab117bd7067f125afd80a\
 Date: 2020-10-13T14:44:48.716Z\
@@ -43,7 +49,8 @@ Node.js: 12.14.1\
 V8: 8.3.110.13-electron.0\
 OS: Linux x64 5.4.0-52-generic
 
-Visual Studio Code Extensions
+- Visual Studio Code Extensions
+    - Python, by Microsoft
 
 
 # Build and Execution Instructions:
