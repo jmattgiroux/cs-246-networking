@@ -35,9 +35,12 @@ Build and Execution Instructions:
 
 Screenshots:
 
-The two screenshots are from early development for this project, showing a successful test of the client and server recieving and sending to each other.
+This is an example of how to run the server and client as a user, without using PyCharm.
+Though this example is from an early version of the program, the principle remains the same.
 
 ![User Usage Example](https://github.com/jmattgiroux/cs-246-networking-1/blob/main/userUseExample.png)
+
+The two screenshots are from early development for this project, showing a successful test of the client and server recieving and sending to each other.
 
 ![screenshot of echo 1](https://github.com/jmattgiroux/cs-246-networking-1/blob/main/echo1.png)
 
