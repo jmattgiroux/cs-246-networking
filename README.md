@@ -37,7 +37,7 @@ Screenshots:
 
 The two screenshots are from early development for this project, showing a successful test of the client and server recieving and sending to each other.
 
-![User Usage Example]()
+![User Usage Example](https://github.com/jmattgiroux/cs-246-networking-1/blob/main/userUseExample.png)
 
 ![screenshot of echo 1](https://github.com/jmattgiroux/cs-246-networking-1/blob/main/echo1.png)
 
