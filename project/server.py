@@ -1,5 +1,24 @@
 import random
 
+# https://realpython.com/python-sockets/
+import socket
+
+HOST = '127.0.0.1' # localhost; we're having our computer talk to itself.
+PORT = 65432       # Port to listen on (ports > 1023 are non-privileged, ie, free game)
+
+# https://realpython.com/python-sockets/
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+    s.bind((HOST, PORT))
+    s.listen()
+    conn, addr = s.accept()
+    with conn:
+        print('Connected by', addr)
+        while True:
+            data = conn.recv(1024)
+            if not data:
+                break
+            conn.sendall(data)
+
 
 class Translator:
     dogWord = ["BORK", "baRK", "ArF", "ruff"]
@@ -43,7 +62,7 @@ if __name__ == '__main__':
     translator = Translator
 
     # https://www.askpython.com/python/examples/python-user-input
-    translator.set_string(translator, input("Please enter the text you would like to translate to dog-ish: "))
+    # translator.set_string(translator, input("Please enter the text you would like to translate to dog-ish: "))
 
-    print(translator.get_dog_string(translator))
+    # print(translator.get_dog_string(translator))
 
