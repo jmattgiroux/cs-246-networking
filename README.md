@@ -8,11 +8,11 @@ Requirements:
 
 - Write a program that allows one computer to communicate with another computer using either of the following:
   - Client-Server Model—You will need to write one program for the client and one program for the server. (Done)
-  - Peer-to-Peer Model—You will need to write one program for the peer to both send and receive.
-- The software should implement either a collaboration system, problem solving system, file delivery system, or embedded system. Examples of each of these systems are shown in the Overview section above. The software may be written in any programming language. (Collaboration System)
-- Only one kind of request needs to be sent between computers, with the appropriate response.
+  - Peer-to-Peer Model—You will need to write one program for the peer to both send and receive. (N/A)
+- The software should implement either a collaboration system, problem solving system, file delivery system, or embedded system. Examples of each of these systems are shown in the Overview section above. The software may be written in any programming language. (Collaboration System, Done)
+- Only one kind of request needs to be sent between computers, with the appropriate response. (Done, we got an echoed response, see screenshot below)
 - The program can run from the command line (no graphics needed). (Done)
-- You can use either TCP or UDP. (TCP)
+- You can use either TCP or UDP. (TCP, Done)
 
 Environment Setup:
 
@@ -25,13 +25,19 @@ Environment Setup:
 
 - Visual Studio 2019 Version 16.8
 
+- git version 2.29.2.windows.2 
+
 Build and Execution Instructions:
 
-
+- Clone this repository
+- Initiate a Git Bash within the 'project' folder within the downloaded repository, two times
+- In one terminal, run the command "python server.py"; in the other terminal, run the command "python client.py"
 
 Screenshots:
 
 The two screenshots are from early development for this project, showing a successful test of the client and server recieving and sending to each other.
+
+![User Usage Example]()
 
 ![screenshot of echo 1](https://github.com/jmattgiroux/cs-246-networking-1/blob/main/echo1.png)
 
