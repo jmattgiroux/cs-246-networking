@@ -36,7 +36,7 @@ Build and Execution Instructions:
 Screenshots:
 
 This is an example of how to run the server and client as a user, without using PyCharm.
-Though this example is from an early version of the program, the principle remains the same.
+Though this example is from an early version of the program, the principle  for executing the program remains the same.
 
 ![User Usage Example](https://github.com/jmattgiroux/cs-246-networking-1/blob/main/userUseExample.png)
 
